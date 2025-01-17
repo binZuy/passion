@@ -33,7 +33,7 @@ class CheckoutsController < ApplicationController
       success_url: "http://localhost:3000/success",
       cancel_url: "http://localhost:3000/cancel",
       shipping_address_collection: { 
-        allowed_countries: ['US', 'CA']
+        allowed_countries: ['US', 'CA', 'VN']
       }
     )
 

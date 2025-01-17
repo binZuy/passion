@@ -4,20 +4,17 @@
         <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-between">
           <div class="hidden sm:flex items-center justify-center">
             <div class="flex space-x-10">
-              <%= link_to 'Shop', root_path, class: "text-gray-500 hover:underline py-2 rounded-md text-md font-medium" %>
+              <%= link_to 'Shop', root_path, class: "text-bold-500 hover:underline py-2 rounded-md text-md font-medium" %>
             </div>
           </div>
           <div class="flex-shrink-0 flex items-center">
             <%= link_to root_path do %>
-              <%= image_tag 'logo.png', class: 'block lg:hidden h-20 w-auto' %>
-            <% end %>
-            <%= link_to root_path do %>
-              <%= image_tag 'logo.png', class: 'hidden lg:block h-20 w-auto' %>
+              <%= image_tag 'logo.png', class: 'hidden lg:block h-20 w-auto rounded-full ' %>
             <% end %>
           </div>
           <div class="hidden sm:flex sml:ml-6 items-center justify-center">
             <div class="flex space-x-10">
-              <%= link_to cart_path, class: "text-gray-500 hover:underline py-2 rounded-md text-md font-medium" do %>
+              <%= link_to cart_path, class: "text-bold-500 hover:underline py-2 rounded-md text-md font-medium" do %>
                 <%= icon 'fa-solid', 'shopping-cart' %>
               <% end %>
             </div>
